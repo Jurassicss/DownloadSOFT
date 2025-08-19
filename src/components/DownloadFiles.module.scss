@@ -1,0 +1,215 @@
+.container {
+    position: relative;
+    top:40vh;
+    translate: 0% -50%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .selectGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .selectGroup label {
+    font-weight: bold;
+    margin-bottom: 7px;
+  }
+  
+  .selectGroup select {
+    padding: 6px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+
+  }
+  
+  .filesList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+    max-height: 10%;
+  }
+  
+  .fileLink {
+    text-decoration: none;
+    color: #1976d2;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .fileLink:hover {
+    color: #1565c0;
+  }
+  
+
+  .downloadAllButton {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #388e3c; /* зеленый оттенок для отличия */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+  }
+  
+  .downloadAllButton:hover:enabled {
+    background-color: #2e7d32;
+  }
+  
+  .downloadAllButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+
+  
+  .title{
+    position: relative;
+    left: 50%;
+    translate: -50% 0%;
+    width: fit-content;
+    margin-block: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+      font-size: 28px;
+    }
+    h4{
+      font-size: 20px;
+    }
+  }
+
+
+
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background: #fafafa;
+    box-shadow: 0px 5px 5px gray;
+
+    width: clamp(350px, 5vw, 500px);
+    margin-top: 40px;
+  }
+  
+  .selectGroup {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .select {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+  
+  .filesList {
+    margin-top: 20px;
+    position: relative;
+    left:50%;
+    translate: -50% 0%;
+    width: fit-content;
+  }
+  
+  .folder, .file {
+    margin-left: 20px;
+  }
+  
+
+  .folders{
+    position: relative;
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;                /* расстояние между карточками */
+  align-items: start;
+
+  max-height: 20vh;
+
+  overflow: auto;
+
+  column-count: 2;
+  }
+  .folderName {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .folderContent {
+    margin-left: 15px;
+  }
+  
+  .downloadAllButton {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .downloadAllButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .folderHeader{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+
+
+
+
+
+
+  /* Новый класс для кнопки раскрытия */
+.expandButton {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-inline: 10px;
+  }
+  
+  .expandButton:hover {
+    background-color: #c0c0c0;
+  }
+
+
+
+
+
+
+
+
+
+  
